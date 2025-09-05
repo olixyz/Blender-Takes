@@ -1,0 +1,9 @@
+output/
+takes.log
+takes.sh
+*.blend1
+
+
+# No Quarto files
+*_files/
+*.html
