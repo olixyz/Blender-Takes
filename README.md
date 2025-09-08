@@ -14,6 +14,12 @@ Contact-sheet of all _takes_ used in the demo (all starting at the same time, cl
 
 [<img src="./docs/img/contactSheet.jpg" width="400"/>](https://echtzeit-drei.de/assets/contactSheet_web.mp4)
 
+## Quickstart
+
+See how to generate _takes_ from the demo file:
+
+[<img src="./docs/img/runningTheDemo.jpg" width="400"/>](https://echtzeit-drei.de/assets/howToRunTheDemo_web.mp4)
+
 ## What is this?
 
 The output of a single Blender file can be many things:
