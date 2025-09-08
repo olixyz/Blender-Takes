@@ -108,7 +108,9 @@ for name in takenames:
 
     # Write to log file. This is for the Simple Render Queue:
     frame_range = [str(bpy.context.scene.frame_start), str(bpy.context.scene.frame_end)]
-    logger.info("{} -c 1 -f {}".format(output_file, "..".join(frame_range)))
+    logger.info(
+        "{} -c 1 -f {}".format(filename + "." + name + ".blend", "..".join(frame_range))
+    )
 
     # Re-open original file
     bpy.ops.wm.open_mainfile(filepath=main_file)
